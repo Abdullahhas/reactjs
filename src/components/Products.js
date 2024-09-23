@@ -7,7 +7,7 @@ function Product(props) {
       <img src={props.img} alt="sneakers" />
       <h4>{props.name}</h4>
       <p>{props.desc}</p>
-      <h4>{props.price}</h4>s
+      <h4>{props.price}</h4>
     </div>
   );
 }
