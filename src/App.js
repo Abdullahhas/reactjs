@@ -1,16 +1,24 @@
-import "./App.css";
-import Navbar from "./components/Navbar";
+// import "./App.css";
+// import Navbar from "./components/Navbar";
+
+import Counter from "./components/Counter";
+import Signin from "./components/Signin";
+
+// import Signin from "./components/Signin";
+
 // import Product from "./components/Products";
-import TextForm from "./components/TextForm";
+// import TextForm from "./components/TextForm";
 
 function App() {
   return (
     <>
       {/* <Navbar title="Abdullah" abouttext = "aboututils" /> */}
-      <Navbar title="TextUtils" />
+      {/* <Navbar title="TextUtils" />
       <div className="container">
       <TextForm heading="Enter the Text to analyze below"/>
-      </div>
+      </div> */}
+      {/* <Signin/> */}
+      <Counter/>
       
     </>
 
