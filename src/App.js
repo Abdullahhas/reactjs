@@ -2,6 +2,7 @@
 // import Navbar from "./components/Navbar";
 
 import Counter from "./components/Counter";
+import Form from "./components/Form";
 import Signin from "./components/Signin";
 
 // import Signin from "./components/Signin";
@@ -18,7 +19,8 @@ function App() {
       <TextForm heading="Enter the Text to analyze below"/>
       </div> */}
       {/* <Signin/> */}
-      <Counter/>
+      {/* <Counter/> */}
+      <Form/>
       
     </>
 
